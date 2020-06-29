@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("gplaypattern.png");
+    background-repeat: repeat;
+}
+
+@font-face {
+    font-family: 'Folktale';
+    src: url('Folktale.ttf');
+}
+
+@font-face {
+    font-family: 'Theano';
+    src: url('TheanoDidot.ttf');
+}
+
+a:link, a:visited, a:active {
+	color: #ee1c24;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333a99;
+	text-decoration: underline;
+}
+
+.left {
+   float: left;
+   padding: 0 20px 0 20px;
+	margin: 0px 0px 0px 50px;}
+
+.right {
+   float: right;
+   padding: 0 20px 0 20px;
+	margin: 0px 50px 0px 0px;}
+
+
+/*navigation at top*/
+
+header {
+	position: relative;
+	height: 70px;
+	background: #ffffff;
+	margin: 0;	
+}
+
+#logo {
+	float: left;
+	margin: 18px 0 0 30px;
+}
+
+#buttons {
+	float: right;
+	text-align: center;
+	font-size: 1.2em;
+	line-height: 1em;
+	letter-spacing: .005em;
+	font-style: normal;
+	font-weight: 100; 
+	font-family: 'Folktale'
+}
+	
+#wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+li {
+	margin: 0px 0px 0px 50px;
+	display: inline-block;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	letter-spacing: .02em;
+	font-style: normal;
+	font-weight: 300; 
+	font-family: 'Folktale'
+}
+
+#headerimg {
+	background:#333333;
+	background-image:url(hongdae.png);
+	height:400px;
+	margin:0 auto;
+}
+
+/* content */
+
+article {
+	background: #fff;
+	height: 100%;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+#title {
+	width: 100%;
+	float: left;
+	margin: 0px 0px 30px 50px;
+	font-weight: 100;
+	font-family: 'Folktale';
+}
+
+p {
+	display: block;
+	width: 90%;
+	margin: 0px 0px 0px 50px;
+	font-size: 1.1em;
+	line-height: 1.5em;
+	letter-spacing: .01em;
+	font-weight: 550;
+	font-family: Theano;
+}
+
+/* footer */
+
+
+footer {
+	height: 250px;
+	background: #fff;
+	margin: 10px 0 0 0;
+}
+
+
+/* focus */
+
+* {
+	margin:0;
+	padding:0;
+	}
